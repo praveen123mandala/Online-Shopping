@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header">
+<a href="#"><img src="logos.png" class="logo" alt=""></a>
+
+<div>
+    <ul id="navbar">
+<li><a href="indexxx.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="blog.html" class="active">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+<li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+<a href="#" id="close"><i class="far fa-times"></i></a>
+
+    </ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+<section id="page-header" class="blog-header">
+<h1>#Read More</h1>
+<p>Read all case study about our products!</p>
+</section>
+<br><br>
+
+<section id="blog">
+    <div class="blog-box">
+        <div class="blog-img">
+<img src="winterpic.jpeg" height="300px" width="300px" alt="">
+       </div>
+<div class="blog-details">
+<h3>The Cotton Zersy hoodie</h3>
+<p>uhhjbcdscgjdwgjhdbchgjeygjewgjygejc
+    wejgewygcjygjewgcjhhgwejchgwejcg
+</p>
+<a href="#">Continue Reading ............</a>
+</div>
+    </div>
+    <div class="blog-box">
+        <div class="blog-img">
+<img src="winterpic.jpeg" height="300px" width="300px" alt="">
+       </div>
+<div class="blog-details">
+<h3>The Cotton Zersy hoodie</h3>
+<p>uhhjbcdscgjdwgjhdbchgjeygjewgjygejc
+    wejgewygcjygjewgcjhhgwejchgwejcg
+</p>
+<a href="#">Continue Reading ............</a>
+</div>
+    </div>    <div class="blog-box">
+        <div class="blog-img">
+<img src="winterpic.jpeg" height="300px" width="300px" alt="">
+       </div>
+<div class="blog-details">
+<h3>The Cotton Zersy hoodie</h3>
+<p>uhhjbcdscgjdwgjhdbchgjeygjewgjygejc
+    wejgewygcjygjewgcjhhgwejchgwejcg
+</p>
+<a href="#">Continue Reading ............</a>
+</div>
+    </div>    <div class="blog-box">
+        <div class="blog-img">
+<img src="winterpic.jpeg" height="300px" width="300px" alt="">
+       </div>
+<div class="blog-details">
+<h3>The Cotton Zersy hoodie</h3>
+<p>uhhjbcdscgjdwgjhdbchgjeygjewgjygejc
+    wejgewygcjygjewgcjhhgwejchgwejcg
+</p>
+<a href="#">Continue Reading ............</a>
+</div>
+    </div>    <div class="blog-box">
+        <div class="blog-img">
+<img src="winterpic.jpeg" height="300px" width="300px" alt="">
+       </div>
+<div class="blog-details">
+<h3>The Cotton Zersy hoodie</h3>
+<p>uhhjbcdscgjdwgjhdbchgjeygjewgjygejc
+    wejgewygcjygjewgcjhhgwejchgwejcg
+</p>
+<a href="#">Continue Reading ............</a>
+</div>
+    </div>
+
+</section>
+
+
+
+
+
+<section id="pagination" class="section-p1">
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#"><i class="fal fa-long-arrow-alt-right"></i></a><br><br><br>
+</section>
+<section id="newsletter">
+    <div class="newstext">
+        <h4>Sign Up For News Letter</h4>
+        <p>Get E-Mail updates about our latest shop and <span>special offer.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your Email Adress">
+        <button>Sign Up</button>
+    </div>
+</section>
+    <script src="scripttt.js"></script>
+</body>
+</html>

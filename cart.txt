@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header">
+<a href="#"><img src="logos.png" class="logo" alt=""></a>
+
+<div>
+    <ul id="navbar">
+<li><a href="indexxx.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+<li id="lg-bag"><a href="cart.html" class="active"><i class="far fa-shopping-bag"></i></a></li>
+<a href="#" id="close"><i class="far fa-times"></i></a>
+
+    </ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+<section id="page-header" class="about-header">
+<h1>#let's TAlK</h1>
+<p>Pravee's product never will be dublicates!</p>
+</section>
+<br><br>
+<section id="cart" class="section-p1">
+<table width="100%">
+    <thead>
+        <tr>
+            <td>
+                Remove
+            </td>
+            <td>
+                image
+            </td>           
+             <td>
+                Product
+            </td>           
+             <td>
+                Price
+            </td>          
+              <td>
+                Quantity
+            </td>
+            <td>
+                SubTotal
+            </td>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href=#><i class="far fa-times-circle"></i></a></td>
+            <td><img src="shirt10.png" alt=""></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>1999.00</td>
+            <td><input type="number" value="1"></td>
+            <td>$1999.00</td>
+        </tr>        <tr>
+            <td><a href=#><i class="far fa-times-circle"></i></a></td>
+            <td><img src="shirt2.png" alt=""></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>1999.00</td>
+            <td><input type="number" value="1"></td>
+            <td>$1999.00</td>
+        </tr>        <tr>
+            <td><a href=#><i class="far fa-times-circle"></i></a></td>
+            <td><img src="shirt7.png" alt=""></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>1999.00</td>
+            <td><input type="number" value="1"></td>
+            <td>1999.00</td>
+        </tr>
+    </tbody>
+</table>
+</section id="cart-add" class="section-p1">
+<div id="coupon">
+    <h3>Apply Coupons</h3>
+
+<div>
+    <input type="text" placeholder="Enter Your Coupons">
+    <button class="normal">Apply</button>
+</div>
+</div>
+<div id="subtotal">
+    <h3>Cart Tools</h3>
+    <table>
+        <tr>
+            <td>cart Subtotal</td>
+            
+            <td>1999.00</td>
+
+
+        </tr>
+        <tr> 
+            <td>Shipping</td>
+            <td>Free</td>
+        </tr>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$1999.00</strong></td>
+        </tr>
+    </table>
+    <button class="normal">Proceed To Checkout</button>
+</div>
+<section>
+
+</section>
+    <script src="scripttt.js"></script>
+</body>
+</html>

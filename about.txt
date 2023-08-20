@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header">
+<a href="#"><img src="logos.png" class="logo" alt=""></a>
+
+<div>
+    <ul id="navbar">
+<li><a href="indexxx.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html"  class="active">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+<li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+<a href="#" id="close"><i class="far fa-times"></i></a>
+
+    </ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+<section id="page-header" class="about-header">
+<h1>#Know Us</h1>
+<p>Pravee's product never will be dublicates!</p>
+</section>
+<br><br>
+<section id="about-header" class="section-p1">
+
+<img src="herooo.png">
+<div>
+    <h1>WHO WE ARE?</h1>
+    <p>gjrigjfiobjifjbiofgblkgjbiojgfilm
+        iuhdiuhdrhdsiunbiuriuvndskjviurhviu
+        ijfkjdsfyuewjfiufiubjiusicfguhd
+        zsifishgedhkjoiodgiukcijgiodiu
+        dkjvndsjvndsiuhiudsjviodjiobjdfioj
+    </p>
+    <abbr title="">oifjewiujfkueshdfiusndiuvnciuxhcsiuvehihih
+        wdbawjhfbsuygcyushcyubsyucv eubvuyebeuh
+    </abbr>
+    <br>
+    <marquee bgcolor="yellow" width="100%">ufewdhvudfnvdudnviueniuvhewiuvhiuerwh</marquee>
+</div>
+
+
+
+</section>
+<section id="about-app" class="section-p1">
+<h1>Download Our<a href="#">App</a></h1>
+<video autoplay muted loop src="C:\Users\prave\OneDrive\Desktop\calculater\CSS\videos\samplevideo.mp4" width="900px" height="900px"></video>
+</section>
+<section id="features" class="section">
+    <div class="fe-box">
+    <img src="freeshippingimage.png" alt="">
+    <h4 class="hfour">Free Shipping</h4>
+    </div>
+    <div class="fe-box">
+        <img src="quickorderimage.png" alt="">
+        <h4 class="hfour">Quick Order</h4>
+        </div>
+    
+    <div class="fe-box">
+            <img src="savemoneyimage.png" alt="">
+            <h4 class="hfour">Save Money</h4>
+         </div>
+    
+     <div class="fe-box">
+                <img src="promotionsimage.png" alt="">
+                <h4 class="hfour">Promotions</h4>
+         </div>
+     <div class="fe-box">
+                    <img src="supportimage.png" alt="">
+                    <h4 class="hfour">24/7 Support</h4>
+          </div>
+    
+    
+    </section>
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For News Letter</h4>
+            <p>Get E-Mail updates about our latest shop and <span>special offer.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email Adress">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <script src="scripttt.js"></script>
+</body>
+</html>

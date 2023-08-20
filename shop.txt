@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header">
+<a href="#"><img src="logos.png" class="logo" alt=""></a>
+
+<div>
+    <ul id="navbar">
+<li><a href="indexxx.html">Home</a></li>
+<li><a href="shop.html" class="active">Shop</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+<li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+<a href="#" id="close"><i class="far fa-times"></i></a>
+
+    </ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+<br><br>
+
+<section id="prodetails" class="section-p1">
+<div class="single-pro-image">
+<img src="shirt2.png" width="100%" id="mainimg" alt="">
+
+<div class="small-img-group">
+<div class="small-img-col">
+<img src="shirt1.png" width="100%" class="small-img" alt="">
+</div>
+<div class="small-img-col">
+    <img src="shirt3.png" width="100%" class="small-img" alt="">
+    </div>
+    <div class="small-img-col">
+        <img src="shirt4.png" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="shirt5.png" width="100%" class="small-img" alt="">
+            </div>
+</div>
+</div>
+
+
+<div class="single-pro-details">
+    <h4>Home/T-shirt</h4>
+    <h3>Men's Fashion T-shirt</h3>
+    <h2>$1999.00</h2>
+    <select>
+        <option>Select Size</option>
+        <option>Small</option>
+        <option>XL</option>
+        <option>XXL</option>
+        <option>Large</option>
+    </select>
+    <input type="number" value="1">
+    <button class="normal">Add To Cart</button>
+    <h3>Product Details</h3>
+    <span>this is the great shirt that you never seen
+              this is the great shirt that you never seen
+        this is the great shirt that you never seen
+        this is the great shirt that you never seen
+        this is the great shirt that you never seen
+    </span>
+</div>
+</section>
+<section id="product1" class="section2">
+    <h1 class="middle">Featured Products<br><h4 class="middle1">Summer Collection New Modern Design</h4></h1>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="top1.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+               <span class="shirtname">Navy-Blue Dress</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="top2.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+                <span class="shirtname">Pinkish Top</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>    <div class="pro">
+            <img src="top3.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>    <div class="pro">
+            <img src="top4.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+               <span class="shirtname">Sky-Blue Kurtha</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>    <div class="pro">
+            <img src="top5.png" alt="">
+            <div class="des">
+                <span class="brand">Alensolly</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div><br>
+    </div>
+    
+    
+    </section>
+<section id="newsletter">
+    <div class="newstext">
+        <h4>Sign Up For News Letter</h4>
+        <p>Get E-Mail updates about our latest shop and <span>special offer.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your Email Adress">
+        <button>Sign Up</button>
+    </div>
+</section>
+<footer class="section-p1">
+</footer>
+<script>
+    var mainimg=document.getElementById("mainimg");
+    var smallimg=document.getElementsByClassName("small-img")
+     smallimg[0].onclick=function() {
+        mainimg.src=smallimg[0].src;
+     }
+     smallimg[1].onclick=function(){
+        mainimg.src=smallimg[1].src;
+     }
+     smallimg[2].onclick=function(){
+        mainimg.src=smallimg[2].src;
+     }
+     smallimg[3].onclick=function(){
+        mainimg.src=smallimg[3].src;
+     }
+</script>
+
+    <script src="scripttt.js"></script>
+</body>
+</html>

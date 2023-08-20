@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header">
+<a href="#"><img src="logos.png" class="logo" alt=""></a>
+
+<div>
+    <ul id="navbar">
+<li><a href="indexxx.html" class="active">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+<li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+<a href="#" id="close"><i class="far fa-times"></i></a>
+
+    </ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+<section id="hero">
+<h4><br><br><br>Trade-In -Offer</h4>
+<h2>Fantastic Design Deals</h2>
+<h1>On All Products</h1>
+<p>same more with cupouns & upto 70% off!</p>
+<button></button>
+</section>
+
+
+<section id="features" class="section">
+<div class="fe-box">
+<img src="freeshippingimage.png" alt="">
+<h4 class="hfour">Free Shipping</h4>
+</div>
+<div class="fe-box">
+    <img src="quickorderimage.png" alt="">
+    <h4 class="hfour">Quick Order</h4>
+    </div>
+
+<div class="fe-box">
+        <img src="savemoneyimage.png" alt="">
+        <h4 class="hfour">Save Money</h4>
+     </div>
+
+ <div class="fe-box">
+            <img src="promotionsimage.png" alt="">
+            <h4 class="hfour">Promotions</h4>
+     </div>
+ <div class="fe-box">
+                <img src="supportimage.png" alt="">
+                <h4 class="hfour">24/7 Support</h4>
+      </div>
+
+
+</section>
+
+<section id="product1" class="section2">
+<h1 class="middle">Featured Products<br><h4 class="middle1">Summer Collection New Modern Design</h4></h1>
+<div class="pro-container">
+    <div class="pro">
+        <img src="shirt2.png" alt="">
+        <div class="des">
+            <span class="brand">Adidas</span><br>
+           <span class="shirtname"> Pogo T-Shirt</span>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+        </div>
+       $1000
+     </div><br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+    </div>
+    <div class="pro">
+        <img src="shirt3.png" alt="">
+        <div class="des">
+            <span class="brand">Adidas</span><br>
+            <span class="shirtname"> Pogo T-Shirt</span>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+        </div>
+       $1000
+     </div><br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+    </div>    <div class="pro">
+        <img src="shirt4.png" alt="">
+        <div class="des">
+            <span class="brand">Adidas</span><br>
+            <span class="shirtname"> Pogo T-Shirt</span>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+        </div>
+       $1000
+     </div><br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+    </div>    <div class="pro">
+        <img src="shirt5.png" alt="">
+        <div class="des">
+            <span class="brand">Adidas</span><br>
+           <span class="shirtname"> Pogo T-Shirt</span>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+        </div>
+       $1000
+     </div><br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+    </div>    <div class="pro">
+        <img src="shirt6.png" alt="">
+        <div class="des">
+            <span class="brand">Alensolly</span><br>
+            <span class="shirtname"> Pogo T-Shirt</span>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+        </div>
+       $1000
+     </div><br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+    </div><br>
+</div>
+
+
+</section>
+<section id="product1" class="section2">
+
+    <div class="pro-container">
+        <div class="pro">
+            <img src="shirt6.png" alt="">
+            <div class="des">
+                <span class="brand">Jocks&Jones</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>        <div class="pro">
+            <img src="shirt7.png" alt="">
+            <div class="des">
+                <span class="brand">Dfacto</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="shirt8.png" alt="">
+            <div class="des">
+                <span class="brand">Levis</span><br>
+           <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="shirt9.png" alt="">
+            <div class="des">
+                <span class="brand">Wrong</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="shirt10.png" alt="">
+            <div class="des">
+                <span class="brand">Roadster</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+    </div>
+
+
+</section>
+<section id="banner" class="section-p1">
+    <h4>Repair Services</h4>
+    <h2>Up to&nbsp;&nbsp;&nbsp;<span>70% Off</span>&nbsp;&nbsp;&nbsp;All t-shirts &Accessories</h2>
+    <button>Explore More</button>
+
+</section>
+
+<br><br>
+    <section id="product1" class="section2">
+    <h1 class="middle">New Arrivals<br><h4 class="middle1">Summer Collection New Modern Design</h4></h1>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="top1.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+               <span class="shirtname">Navy-Blue Dress</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="top2.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+                <span class="shirtname">Pinkish Top</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>    <div class="pro">
+            <img src="top3.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>    <div class="pro">
+            <img src="top4.png" alt="">
+            <div class="des">
+                <span class="brand">Adidas</span><br>
+               <span class="shirtname">Sky-Blue Kurtha</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>    <div class="pro">
+            <img src="top5.png" alt="">
+            <div class="des">
+                <span class="brand">Alensolly</span><br>
+                <span class="shirtname"> Pogo T-Shirt</span>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>
+           $1000
+         </div><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div><br>
+    </div>
+    
+    
+    </section>
+    <section id="product1" class="section2">
+    
+        <div class="pro-container">
+            <div class="pro">
+                <img src="top6.png" alt="">
+                <div class="des">
+                    <span class="brand">Jocks&Jones</span><br>
+                    <span class="shirtname"> Pogo T-Shirt</span>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                </div>
+               $1000
+             </div><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>        <div class="pro">
+                <img src="top7.png" alt="">
+                <div class="des">
+                    <span class="brand">Dfacto</span><br>
+                    <span class="shirtname"> Pogo T-Shirt</span>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                </div>
+               $1000
+             </div><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="top8.png" alt="">
+                <div class="des">
+                    <span class="brand">Levis</span><br>
+               <span class="shirtname"> Pogo T-Shirt</span>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                </div>
+               $1000
+             </div><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="top9.png" alt="">
+                <div class="des">
+                    <span class="brand">Wrong</span><br>
+                    <span class="shirtname"> Pogo T-Shirt</span>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                </div>
+               $1000
+             </div><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="top10.png" alt="">
+                <div class="des">
+                    <span class="brand">Roadster</span><br>
+                    <span class="shirtname"> Pogo T-Shirt</span>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                </div>
+               $1000
+             </div><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+    
+        </div>
+    
+    
+    </section><br><br>
+<section id="sm-banner" class="section-p1">
+<div class="banner-box">
+    <h4>Crazy Deals</h4>
+    <h2>Buy One get One Free</h2>
+    <span>The best classic dress is on sale at Fashion</span><br><br>
+    <button class="white">Learn More</button>    
+</div>
+<div class="banner-boxes">
+    <h4>Spring/Summer</h4>
+    <h2>UpComing Season</h2>
+    <span>The best classic dress is on sale at Fashion</span><br><br>
+    <button class="whites">Collection</button>
+</div>
+
+</section><br><br>
+
+<section id="banner3">
+    <div class="banner-box">
+        <h2>SEASON SALE</h2>
+        <h3>Winter Collection -50% OFF</h3>
+    </div>
+    <div class="banner-boxess">
+        <h2> FOOT WEAR COLLECTION</h2>
+        <h3>Spring/Summer 2023</h3>
+    </div>
+    <div class="banner-boxesss">
+        <h2>SHIRTS</h2>
+        <h3>New Trendy</h3>
+    </div>
+</section>
+
+<section id="newsletter">
+    <div class="newstext">
+        <h4>Sign Up For News Letter</h4>
+        <p>Get E-Mail updates about our latest shop and <span>special offer.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your Email Adress">
+        <button>Sign Up</button>
+    </div>
+</section>
+    <script src="scripttt.js"></script>
+</body>
+</html>

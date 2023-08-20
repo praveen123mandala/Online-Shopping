@@ -1,0 +1,863 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    padding-top: 10px;
+    background-color: rgb(186, 162, 210);
+    box-shadow: 0 1px 5px rgb(189, 168, 208);
+    position: sticky;
+    top: 0;
+left: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar li{
+ list-style: none;
+    padding: 0 20px;
+    position: relative;
+    }
+
+    #navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(29, 28, 26);
+        transition: 0.3s;
+    }
+
+    #navbar li a:hover,
+    #navbar li a.active{
+        color:teal;
+    }
+
+    #navbar li a.active::after,
+    #navbar li a.active::after:hover{
+        width: 30%;
+        content: "";
+        height: 2px;
+        background:teal;
+        position: absolute;
+        bottom: -4px;
+        left: 20px;
+    }
+    #mobile{
+        display: none;
+        align-items: center;
+    }
+    #close{
+        display: none;
+    }
+    #hero{
+background-image: url('herooo.png');
+height: 78vh;
+width: 80%;
+background-repeat: no-repeat;
+background-position: top 0 right 0;
+padding: 0 20px;
+padding-top: 10px;
+margin-left: 20px;
+background-color: rgb(191, 184, 238);
+width: 95%;
+    }
+
+    #hero h1{
+        color: rgb(6, 108, 108);
+    }
+    #hero h2{
+        color:rgb(46, 46, 106) ;
+        
+    }
+    #hero button{
+
+        background-image: url('shopnowon.png');
+        
+            width: 200px;
+            height: 200px;
+        border: 0;
+        border-radius: 50%;
+           background-color: rgb(80, 217, 215); 
+        margin: 20px;
+        padding-left: 0;
+        cursor: pointer;
+        text-decoration: none;
+background-position: center center;
+    }
+
+    .section{
+        padding: 40px 80px;
+    }
+
+    #features {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fe-box {
+    width: 180px;
+   height: 220px; 
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 2px 2px 5px;
+    border: 0;
+    border-radius: 10px;
+    
+    }
+.hfour{
+    border: 0;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 25px;
+    background-color: rgb(221, 194, 231);
+    color: rgb(37, 77, 85);
+    box-shadow: 1px 1px 1px;
+}
+
+
+
+.middle{
+ font-size: 30px;
+    text-align: center;
+    color: rgb(31, 31, 88);
+}
+.middle1{
+    
+       text-align: center;
+       color: grey;
+   }
+   
+#product1.pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border:1px solid gainsboro;
+}
+#product1.pro img{
+    width:100%;
+border-radius: 20px;
+border: 1px solid rgb(33, 43, 33);
+}
+.star{
+    color: rgb(245, 172, 14);
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    
+}
+#product1{
+    text-align: center;
+}
+.brand{
+    color: grey;
+    font-size: 15px;
+}
+.shirtname{
+    font-size: 20px;
+    color:seagreen;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('exploreimage.jpg');
+    width: 95%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 0; 
+}
+#banner h4{
+    color:grey;
+    font-size: 30px;
+}
+#banner h2{
+font-size: 30px;
+color: aliceblue;
+}
+#banner button{
+    border: 0;
+    width: 100px;
+    height: 40px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    color: cadetblue;
+    font-weight: 600;
+}
+#banner span{
+    color:brown;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+text-align: left;
+padding-left: 20px;
+min-width: 580px;
+height: 50vh;
+background-size: cover;
+background-position: center;
+    background-image: url('buyget.png');  
+}
+#sm-banner{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+
+ button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:aliceblue;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+#sm-banner .banner-box h4{
+    font-size: 20px;
+    color:aquamarine
+}
+#sm-banner .banner-box h2{
+    font-size: 30px;
+    color: lightskyblue;
+}
+#sm-banner .banner-box span{
+    font-weight: 500;
+}
+button.white:hover{
+    color:aliceblue;
+background-color: blueviolet;
+}
+#sm-banner .banner-boxes{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+text-align: left;
+padding-left: 250px;
+min-width: 580px;
+height: 50vh;
+background-size: cover;
+background-position: center;
+    background-image: url('blurshop.jpg');  
+}
+
+#sm-banner .banner-boxes h4{
+    font-size: 20px;
+    color:aliceblue
+}
+#sm-banner .banner-boxes h2{
+    font-size: 30px;
+    color:aliceblue
+}
+#sm-banner .banner-boxes span{
+    font-weight: 500;
+    color: crimson;
+}
+button.whites:hover{
+    color:aliceblue;
+background-color: blueviolet;
+}
+
+button.whites{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:aliceblue;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+text-align: left;
+padding: 20px;
+min-width: 30%;
+height: 30vh;
+background-size: cover;
+background-position: center;
+    background-image: url('winterpic.jpeg');  
+    margin-bottom: 20px;  
+}
+#banner3 h2{
+    color:aliceblue;
+    font-weight: 700;
+    font-size: 30px;
+}
+#banner3 h3{
+    color:rgb(167, 18, 167);
+    font-weight: 900;
+    font-size: 20px;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+#banner3 .banner-boxesss{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+text-align: left;
+padding: 20px;
+min-width: 30%;
+height: 30vh;
+background-size: cover;
+background-position: center;
+    background-image: url('newcollect-transformed.webp');  
+    margin-bottom: 20px;  
+}
+#banner3 .banner-boxess{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+text-align: left;
+padding: 20px;
+min-width: 30%;
+height: 30vh;
+background-size: cover;
+background-position: center;
+    background-image: url('footswear-transformed.webp');  
+    margin-bottom: 20px;  
+}
+#newsletter{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+background-image: url('back.jpg');
+background-position: 20% 30%;
+height: 150px;
+}
+#newsletter h4{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 100px;
+    color: aliceblue;
+}
+#newsletter p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 100px;
+    color: aliceblue
+}
+#newsletter span{
+    font-size: 20px;
+    font-weight: 400;
+    
+    color:darkgoldenrod;
+}
+#newsletter input{
+    font-size: 20px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: bisque;
+    
+}
+#newsletter button{
+    font-size: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(10, 117, 111) ;
+    border-radius: 10px;
+    margin-right: 90px;
+    color:aliceblue;
+    background-color: rgb(7, 120, 113);
+}
+#page-header{
+    background-image: url('stayhome.png');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 14px;
+    flex-direction: column;
+}
+#page-header h1{
+    color: cornflowerblue;
+    font-size: 30px;
+}
+#page-header p{
+color: cadetblue;
+font-size: 20px;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: darkcyan;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+#prodetails .single-pro-image{
+width: 30%;
+margin-left: 70px;
+}
+.small-img-group{
+display: flex;
+justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails{
+ display: flex;  
+}
+#prodetails .single-pro-details{
+width: 30%;
+padding-top: 30px;
+padding-left: 50px;
+}
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+font-size: 26px;    
+
+}
+#prodetails .single-pro-details select{
+   display: flex;
+   padding: 5px 10px;
+   margin-bottom: 10px; 
+}
+#prodetails .single-pro-details input{
+    width: 40px;
+    height: 47px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-right: 10px;    
+}
+#prodetails .single-pro-details input:focus{
+outline: none;
+}
+
+#prodetails .single-pro-details button{
+background-color:rgb(226, 195, 117);
+width: 100px;
+height: 57px;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+    
+}
+.blog-header{
+    background-image: url('shopnowon.png');
+}
+#blog{
+    padding: 50px 50px 0 50px;
+}
+
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 90px;
+}
+#blog .blog-img{
+    width: 40%;
+    margin-right: 40px
+
+}
+
+
+#blog img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+#blog .blog-details{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog .blog-details a{
+text-decoration: none;
+font-size: 20px;
+color: black;
+font-weight: 700;
+}
+#blog .blog-details a::after{
+content: "";
+width: 50px;
+height: 1px;
+background-color: black;
+position: absolute;
+top: 4px;
+right: -60px;
+}
+#blog .blog-details a:hover{
+    color: darkcyan;
+    transition: 0.3s;
+}
+#blog .blog-details a:hover::after{
+    background-color: darkcyan;
+}
+
+#page-header .about-header{
+    background-image: url('shopnowon.png');
+}
+#about-header img{
+    width: 50%;
+    height: auto;
+}
+#about-header{
+    display: flex;
+    align-items: center;
+}
+
+
+#about-app{
+    text-align: center;
+}
+#about-app .video{
+    width: 10%;
+    height: 10%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video{
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+}
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;
+    padding-left: 50px;
+}
+
+#contact-details .details span,
+#form-details form span{
+    font-size: 14px;
+
+}
+
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 30px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom:15px ;
+}
+#contact-details .details li{
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+}
+#contact-details .details li i{
+    font-size: 14px;
+   padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 80%;
+    height: 100%;
+}
+#form-details form{
+    display: flex;
+    
+    width: 65%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#form-details {
+ display: flex;
+ justify-content: space-between;
+ margin: 30px;
+ padding:80px;border: 1px solid antiquewhite   
+}
+#form-details form input,
+#form-details form textarea{
+width: 100%;
+padding: 12px 15px;
+outline: none;
+margin-bottom: 20px;
+border: 1px solid antiquewhite;
+}
+
+#form-details form button{
+    background-color:rgb(6, 108, 108);
+color: aliceblue;
+padding: 2px 2px 2px 2px;
+width: 100px;
+height: 50px;
+font-size: 20px;
+border-radius: 10px;
+}
+#form-details .people div{
+padding-bottom: 25px;
+display: flex;
+align-items: flex-start;
+}
+#form-details .people img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+#cart{
+    overflow-x:auto;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart table img{
+    width: 70px;
+}
+#cart table td:nth-child(1){
+width: 100px;
+text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+    }#cart table td:nth-child(3){
+        width: 250px;
+        text-align: center;
+        }#cart table td:nth-child(4),
+    #cart table td:nth-child(5),
+    #cart table td:nth-child(6){
+        
+            width: 150px;
+            text-align: center;
+            }
+        #cart table td:nth-child(5) input{
+            width: 70px;
+            padding: 10px 5px 10px 15px;
+       }
+       #cart table thead{
+        border: 1px solid antiquewhite;
+        border-left: none;
+        border-right: none;
+       }
+       #cart table thead td{
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 15px;
+        padding: 18px 0;
+
+       }
+#cart table tbody tr td{
+padding-top: 20px ;
+
+}
+#cart table tbody td{
+    font-size: 13px;
+
+}
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+padding-left: 50px;
+}
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid antiquewhite;
+}
+#coupon button,
+#subtotal button{
+    background-color:rgb(6, 108, 108);
+    color: aliceblue;
+    padding: 2px 2px 2px 2px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#coupon input{
+    padding: 2px 2px 2px 2px;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#subtotal{
+width: 50%;
+margin-bottom: 30px;
+border: 1px solid antiquewhite ;
+padding-left:  50px;
+}
+#subtotal table{
+    border-collapse: collapse ;
+    width: 100%;
+    margin-bottom: 20px;
+padding-left: 50px;
+}
+#subtotal table td{
+    width: 50%;
+    border: 1px solid antiquewhite;
+    padding: 10px;
+    font-size: 13px;
+padding-left: 50px;
+}
+@media(max-width:799px){
+    #navbar{
+     display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: flex-start;
+ position: fixed;
+ top: 0;
+ right: -300px;
+ height: 100vh;
+ width: 300px;
+ background-color: rgb(250, 247, 243);
+ box-shadow: 0 40px 60px rgb(171, 187, 182);
+ padding: 80px 0 0 10px;
+ transition: 0.3s
+    }
+#navbar.active{
+    right:0px;
+}
+
+ #navbar li{
+    margin-bottom: 25px;
+ }
+
+ #mobile{
+    display: flex;
+    align-items: center;
+}
+#mobile i{
+    color: black;
+    font-size: 24px;
+    padding-left: 20px;
+}
+#close{
+    display: initial;
+position: absolute;
+top: 30px;
+left: 30px;
+font-size: 24px;
+color: black;
+}
+#lg-bag{
+    display: none;
+}
+#hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+}
+#features{
+justify-content: center;
+}
+#features .fe-box{
+margin: 15px 15px;
+}
+
+#product1 .pro-container{
+    justify-content: center;
+}
+#product1 .pro{
+    margin:  25px;
+}
+#banner{
+    height: 25vh;
+}
+
+#sm-banner .banner-box{
+    width: 100%;
+    height: 30vh;
+}
+#banner3{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+#banner3 .banner-box{
+    padding: 0 10px;
+}
+#newsletter .form{
+    width: 100%;
+    padding: 30px 60px;
+}
+#newsletter {
+    height: 70%;
+  
+}
+#prodetails .single-pro-details{
+    width: 30%;
+    padding-top: 0;
+    }
+ }
+
+ 
+ 

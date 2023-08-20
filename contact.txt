@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header">
+<a href="#"><img src="logos.png" class="logo" alt=""></a>
+
+<div>
+    <ul id="navbar">
+<li><a href="indexxx.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+
+<li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+<a href="#" id="close"><i class="far fa-times"></i></a>
+
+    </ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+<section id="page-header" class="about-header">
+<h1>#let's TAlK</h1>
+<p>Pravee's product never will be dublicates!</p>
+</section>
+<br><br>
+
+<section id="contact-details" class="section-p1">
+<div class="details">
+    <span>GET IN TOUCH</span>
+    <h2>visit one of the agency locations to ontact us</h2>
+    <h3>Head Office</h3>
+    <div><li>
+        <i class="fal fa-map"></i>
+        <p>56 GlassFord Street Glasgow G1 1UL New York</p>
+    </li>
+    <li>
+        <i class="fal fa-map"></i>
+        <p>Contack@gmail.com</p>
+    </li><li>
+        <i class="fal fa-map"></i>
+        <p>Email</p>
+    </li><li>
+        <i class="fal fa-map"></i>
+        <p>Mondat To Friday:9:00am to 16.pm</p>
+    </li>
+</div>
+</div>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1365.
+    2900252551033!2d-1.2590602263292066!3d51.
+    75547325284891!2m3!1f0!2f0!3f0!3m2!1i1024!2
+    i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff188
+    3a001afed!2sUniversity%20of%20Oxford!5e1!3m2!1sen!2sin!
+    4v1680166147587!5m2!1sen!2sin" width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+</section>
+<section id="form-details">
+    <form action="">
+        <span>LEAVE A MESSEGE
+        </span>
+        <h2>We love to hear from you
+        </h2>
+<input type="text" placeholder="Your name">
+<input type="text" placeholder="Email Id">
+<input type="text" placeholder="Subject">
+<textarea name="" id="" cols="30" rows="" placeholder="Your Messege">
+</textarea>
+<button class="normall">Submit</button>
+</form>
+<div class="people">
+    <div>
+        <img src="happycellimages.png" alt="">
+        <p><span>Jhon abrami</span>Senior marketing Manager<br>
+        Phone no:9059928613/9059928614
+    <br>Email Id:hellopandi@gmail.com</p>
+    </div>
+    <div>
+        <img src="happycellimages.png" alt="">
+        <p><span>Jhon abrami</span>Senior marketing Manager<br>
+        Phone no:9059928613/9059928614
+    <br>Email Id:hellopandi@gmail.com</p>
+    </div>
+    <div>
+        <img src="happycellimages.png" alt="">
+        <p><span>Jhon abrami</span>Senior marketing Manager<br>
+        Phone no:9059928613/9059928614
+    <br>Email Id:hellopandi@gmail.com</p>
+    </div>
+
+</div>
+</section>
+<br><br>
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For News Letter</h4>
+            <p>Get E-Mail updates about our latest shop and <span>special offer.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email Adress">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <script src="scripttt.js"></script>
+</body>
+</html>
